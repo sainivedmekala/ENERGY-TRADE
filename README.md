@@ -72,25 +72,6 @@ To get a local copy up and running follow these simple example steps.
 Follow these prerequisites to get your local copy all set up.
 
 #### Backend
-- change directory to backend
-```sh
-cd backend/
-```
-- change directory to nest-app
-```sh
-cd nest-app/
-```
-- add a .env file with the following and add in your respective keys
-```sh
-PRIVATE_KEY= <enter your private key>
-INFURA_API_KEY= <enter your private infura api key>
-USER_CONTRACT_ADDRESS=0x9970aDd8bAf8a071395D4932B8Cd9C13ef2e3544
-MARKET_CONTRACT_ADDRESS=0x1F6D603a28e00DFc5C5b03b81a5f2797FdF36C97
-ENERGY_DATA_CONTRACT_ADDRESS=0xc6aaDEc9238CDC375129B38a81332B18DF1515ae
-OPERATOR_ADDRESS=0xec39A0C27b4E7F6c5a02F6AA52F7153Cf8C210f1
-aws_access_key_id= <enter your private aws access key>
-aws_secret_access_key= <enter your private aws secret access key>
-```
 - install required packages using npm
 ```sh
 npm i
@@ -132,10 +113,6 @@ User flow for buyer: Buyer goes to the listings page and buys energy immediately
 
 ![EnergySwap](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjZjMmM2Yzk0NWVlZGEwYTg0M2MxOWQ0YmVhNDMzNDY1ZTg4NjQ4MiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/B2AKBVfgc4XjjsXkuv/giphy.gif)
 
-## Authors
-
-* **Nevan D'Souza** - [Nevan D'Souza](https://github.com/nevan-dsouza/)
-* **Rahul Pujari** - [Rahul Pujari](https://github.com/EmperorRP/)
 
 ## Acknowledgements
 * [IRENA P2P Trading Doc](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jul/IRENA_Peer-to-peer_electricity_trading_2020.pdf?la=en&hash=AB7E0CFED5A51CFD75EB2CC1FB635B64329BB439)
